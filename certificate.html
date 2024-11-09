@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CERTIFICATES</title>
+    <style>
+        /* Full-page layout */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Top horizontal menu */
+        .menu {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            overflow-x: auto;
+        }
+        /* Menu links styling */
+        .menu a {
+            color: #00acee;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        /* Main content area */
+        .content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+        /* Full-width and full-height iframe for media preview */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top horizontal menu with Links to Media Files -->
+    <div class="menu">
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\HTML.pdf" target="content-frame">HTML</a>
+
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\Cranes Certificate.pdf" target="content-frame">VLSI</a>
+
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\OCTANET CERTIFICATE.pdf" target="content-frame">Python</a>
+
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\BHEL certificate.pdf" target="content-frame">BHEL</a>
+
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\Sai SriRamTurpati-Cybersecurity_Al-Cisco.pdf" target="content-frame">CYBERSECURITY</a>
+
+        <a href="C:\Users\SRIRAM\Desktop\SRIRAM\HTML\Sai SriRamTurpati-introduction to -Cisco.pdf" target="content-frame">NETWORKING</a>
+
+           </div>
+
+    <!-- Content area with iframe to show media files -->
+    <div class="content">
+        <iframe name="content-frame" src=""></iframe>
+    </div>
+
+</body>
+</html>
